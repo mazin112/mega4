@@ -4,6 +4,8 @@ import pyrogram
 
 from pyrogram import Client, filters
 
+from TgCrypto import TgCrypto
+
 # Get your APP_ID and API_HASH from https://my.telegram.org/
 
 app_id = "22205158"
