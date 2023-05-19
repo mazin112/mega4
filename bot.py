@@ -28,7 +28,7 @@ def process_text(update, context):
 
         remaining_space = calculate_remaining_space()
 
-        update.message.reply_text(f"Remaining space in Mega account: {remaining_space} MB")
+        update.message.reply_text("Remaining space in Mega account: {} MB".format(remaining_space))
 
     elif text == "/delete":
 
